@@ -1,0 +1,13 @@
+.best__sellers-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0.5rem auto;
+  padding: 1rem;
+}
+
+.best__sellers-list {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 2rem;
+}

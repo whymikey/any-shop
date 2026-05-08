@@ -1,0 +1,27 @@
+@import url('./reset.css');
+
+:root {
+  --bg: #f7f7f7;
+  --card-bg: #ffffff;
+  --text: #222;
+  --border: #e5e5e5;
+  --accent: #333;
+  --btn-text: #ffffff;
+}
+
+#root.dark {
+  --bg: #1a1a1a;
+  --card-bg: #242424;
+  --text: #eaeaea;
+  --border: #333;
+  --accent: #eaeaea;
+  --btn-text: #1a1a1a;
+}
+
+
+#root {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+  min-height: 100vh;
+}
