@@ -1,16 +1,68 @@
-# React + Vite
+<p align="center">
+<img src="https://img.shields.io/badge/React-61DAFB" alt="React">
+<img src="https://img.shields.io/badge/JavaScript-ES6-yellow" alt="JavaScript">
+<img src="https://img.shields.io/badge/Context_API-blue" alt="Context API">
+<img src="https://img.shields.io/badge/Vite-purple" alt="Vite">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 👀 Preview
+<p align="center">
+<img src="https://i.ibb.co/WN0pyQm9/any-shop.png" width="1920">
+</p>
 
-Currently, two official plugins are available:
+## 💡 About
+A simple and modern React E‑Commerce application built with React, Context API, JavaScript, and bundled with Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## Features ✨
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse all products
 
-## Expanding the ESLint configuration
+- Best Sellers section
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add items to cart
+
+- Remove items from cart
+
+- Light/Dark theme toggle
+
+- Simple page navigation without React Router
+
+- Clean and responsive UI
+
+## 🌐 API Used
+
+This project uses the **DummyJSON Products API** to fetch real product data:
+
+**https://dummyjson.com/products**
+
+The API provides:
+- Product titles  
+- Prices  
+- Images  
+- Descriptions  
+- Categories  
+
+It allows the application to display dynamic product information without needing a custom backend
+
+## Tech Stack 🛠
+
+- React – UI components
+
+- JavaScript (ES6) – logic and interactivity
+
+- Context API – global cart & theme state
+
+- Vite – fast development server and bundler
+
+- CSS3 – styling
+
+## Installation & Run ⚙️
+
+1. Clone the repository:
+```bash
+git clone https://github.com/whymikey/any-shop
+cd any-shop
+npm install
+npm run dev
+```
